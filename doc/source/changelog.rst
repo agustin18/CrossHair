@@ -6,6 +6,9 @@ Changelog
 Next Version
 ---------------
 
+ * ``crosshair watch`` no longer delays a file's results until the next pass
+   when its analysis finishes just as the watcher polls for results.
+
  * Fixed Windows argument-specific ``--unblock`` prefixes rejecting subprocesses
    whose arguments contain double quotes, backslash-escaped quotes, or quoted
    trailing backslashes. Prefixes are now matched against the arguments as
